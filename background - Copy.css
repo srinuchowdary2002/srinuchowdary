@@ -1,0 +1,10 @@
+div{
+	height: 640px;
+	width: 870px;
+	border: 6px solid green;
+	background-image: url('bus.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px 300px;
+	box-sizing: border-box;
+}

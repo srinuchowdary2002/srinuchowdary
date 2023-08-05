@@ -1,0 +1,52 @@
+.srinu{
+	border: 2px solid orangered;
+	background: blue;
+}
+p, h2 ,span{
+	font-size: 30px;
+	color: green;
+}
+*{
+	font-size: 30px;
+	font-family: cursive;
+
+	
+	margin: 0px;
+	padding: 0px;
+}
+input[type]{
+	color: yellow;
+}
+input[type=password]{
+	color: green;
+}
+input[type=email]{
+	color: blue;
+}
+a[href]{
+	background-color: blue;
+}
+img[src]{
+	size: 30px;
+	border:5px solid green;
+	border-radius: 100px;
+}
+
+
+
+a:hover{
+	color: red;
+	font-size: 50px;
+
+}
+
+div{
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+}
+div:hover{
+	height: 400px;
+	width: 600px;
+	background-color: green;
+}

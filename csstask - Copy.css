@@ -1,0 +1,130 @@
+span{
+	background: green;
+	padding: 4px;
+	border-radius: 	3px;
+	color: 	white;
+}
+
+h5{
+	background: skyblue;
+	display: inline;
+	padding: 4px;
+	border-radius: 	3px;
+	color: 	white;
+
+}
+select{
+	background: red;
+	padding: 4px;
+	border-radius: 	3px;
+	color: 	white;
+}
+.a{
+	height: 680px;
+	width: 1500px;
+/*	background: black;*/
+}
+.b{
+	height: 680px;
+	width: 500px;
+/*	background: ghostwhite;*/
+
+	
+	float: left;
+
+}
+.c{
+	height: 680px;
+	width: 1000px;
+	float: right;
+/*	background: white;*/
+}
+.d{
+	height: 660px;
+	width: 440px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+	background: white;
+	border: 1px solid black;
+	/*padding: 70px 200px;
+	box-sizing: border-box;*/
+}
+.e{
+	height: 320px;
+	width: 1000px;
+	background: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+.f{
+	height: 360px;
+	width: 1000px;
+	border: 1px solid black;
+	background: white;
+	
+}
+
+label{
+	margin-left:10px;
+}
+	
+
+}
+.v1{
+	background-color: black;
+	color:white;
+}
+h3{
+	text-align: center;
+}
+.y{
+	text-align: center;
+}
+.z{
+	padding: 50px 200px;
+}
+.n{
+	height: 320px;
+	width: 300px;
+	float: left;
+}
+.o{
+	height: 320px;
+	width: 700px;
+	float: right;
+/*	background: white;*/
+}
+.l{
+	text-align: 	right;
+}
+p{
+	padding-left: 	10px;
+}
+.g{
+	text-align: 	center;
+}
+b{
+	padding-left: 	10px;
+}
+
+.j{
+	padding: 4px;
+	border-radius: 	3px;
+	color: 	white;
+	background: 	blue;
+}
+.m{
+	background: 	white;
+	color: 	blue;
+	padding: 4px;
+	border-radius: 	3px;
+	border: 1px solid black;
+	
+}
+progress{
+	width: 900px;
+	margin-left: 10px;
+}
