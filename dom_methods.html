@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dom</title>
+</head>
+<body>
+<img  id="image">
+<script type="text/javascript">
+	let img =document.getElementById('image');
+	img.src="my.png"
+</script>
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<input type="text" value="" id="ins_id">
+	<p id="text">please enter name</p>
+	<script type="text/javascript">
+		let text=document.getElementById("ins_id")
+		document.getElementById("text").style.color = "blue";
+		// text.style.border="2px solid green"
+		document.getElementById("ins_id").style.border="2px solid green"
+		
+
+	</script>
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>by class</title>
+</head>
+<body>
+	<h1>by class</h1>
+	<p class="course">HTML</p>
+	<p class="course">CSS</p>
+    <p class="course">BS</p>
+    <script type="text/javascript">
+    	let paras=document.getElementsByClassName("course");
+    	console.log(paras);
+    	paras[0].innerText="hyper test markup language";
+    	paras[2].style.color="red";
+    </script>
+
+
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		let lis=document.getElementsByTagName("li")
+		lis[1].style.color="blue"
+		lis[1].style.fontSize="50px"
+		lis[2].style.color="green"
+		lis[2].style.fontSize="50px"
+		lis[0].style.color="pink"
+		lis[0].style.fontSize="50px"
+	</script>
+
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task</title>
+</head>
+<body>
+	<h1>task</h1>
+	<table border="">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+	</table>
+	<script type="text/javascript">
+		let all_tds=document.getElementsByTagName("td")
+		for( var i=0;i<all_tds.length;i++){
+			all_tds[i].innerText=i+1;
+		}
+	</script>
+
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>query selector</title>
+</head>
+<body>
+	<h1 id="h_id">Query selector method</h1>
+	<p class="courses">HTML</p>
+	<p class="courses">CSS</p>
+	<p class="courses">BS5</p>
+	<script type="text/javascript">
+		let el=document.querySelector(".courses");
+		el.style.color="yellow"
+	</script>
+
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Document Object</h1>
+<h2>The querySelectorAll() Method</h2>
+
+<p>Add a background color all elements with class="example":</p>
+<h2 class="example">A heading</h2>
+<p class="example">A paragraph.</p> 
+
+<script>
+var nodeList = document.querySelectorAll(".example");
+for (var i = 0; i < nodeList.length; i++) {
+  nodeList[i].style.backgroundColor = "red";
+   nodeList[i].style.color = "white";
+}
+</script>
+
+</body>
+</html>
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<p class="srinu">hello</p>
+<h2 class="srinu">hello</h2>
+<div class="srinu">hello</div>
+<script type="text/javascript">
+	var List = document.querySelectorAll(".srinu");
+for (var i = 0; i < nodeList.length; i++) {
+  List[0].style.backgroundColor = "red";
+  List[1].style.color="blue"
+  List[2].style.fontSize="30px"
+}
+</script>
+</body>
+</html>
